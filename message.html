@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For my baby 💖</title>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Great Vibes', cursive;
+            text-align: center;
+            background-color: #ffe6f2;
+            padding: 5vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            max-width: 90%;
+            width: 600px;
+            background: white;
+            padding: 4vw;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+        }
+        h1 {
+            color: #ff4d88;
+            font-size: 3.5vw; /* Responsive font size */
+        }
+        p {
+            font-size: 2vw; /* Responsive font size */
+            color: #333;
+            margin-bottom: 2vw;
+        }
+        .button {
+            background-color: #ff4d88;
+            color: white;
+            padding: 1vw 2vw;
+            font-size: 2vw;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: 0.3s ease;
+        }
+        .button:hover {
+            background-color: #e6005c;
+            transform: scale(1.1);
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 6vw;
+            }
+            p {
+                font-size: 4vw;
+            }
+            .button {
+                font-size: 4vw;
+                padding: 3vw 5vw;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>My Prettiest Baby 💖</h1>
+        <p>
+            From the moment you stepped into my life, every second has been filled with giggles, love, and warmth. 
+            You are my heart's greatest treasure, my sweetest dream come true, and the best girlfriend a man could ever ask for. 
+            No matter where life takes us, I want you to know that you are my forever love.  
+            Happy Valentine's Day, my princess. 💖
+        </p>
+        <p>A little surprise for you!</p>
+        <button class="button" onclick="redirectToFlowers()">🌹</button>
+    </div>
+
+    <script>
+        function redirectToFlowers() {
+            window.location.href = "index.html"; 
+        }
+    </script>
+
+</body>
+</html>
